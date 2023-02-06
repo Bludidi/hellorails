@@ -26,7 +26,7 @@ development:
   <<: *default
   database: hellorails_development
   user: postgres
-  password: Utnubb@83
+  password: 
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -62,7 +62,7 @@ test:
   <<: *default
   database: hellorails_test
   user: postgres
-  password: Utnubb@83
+  password: 
 
 # As with config/credentials.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
